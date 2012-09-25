@@ -1,6 +1,7 @@
-class UsersController < ApplicationController
+class UsersController < ApplicationController 
   # GET /users
   # GET /users.xml
+  # here is a change
   def index
     @users = User.all
 
